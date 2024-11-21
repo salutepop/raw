@@ -1,0 +1,528 @@
+[RUN-CNS] [TIME 973830.38 17419978.91] 11-20 16:52:25 fillrandom buff_rw_t1 10000000 nvme0n1
+fillrandom   :       3.238 micros/op 308866 ops/sec 32.376 seconds 10000000 operations;  241.5 MB/s
+Count: 10000000 Average: 3.2376  StdDev: 34.15
+[END-CNS] [TIME 973864.88 17420588.70] 11-20 16:52:59
+[RUN-CNS] [TIME 973864.88 17420588.75] 11-20 16:52:59 fillrandom buff_rw_t16 10000000 nvme0n1
+fillrandom   :      79.648 micros/op 200856 ops/sec 796.590 seconds 160000000 operations;  157.1 MB/s
+Count: 160000000 Average: 79.6478  StdDev: 778.46
+[END-CNS] [TIME 974663.43 17432353.01] 11-20 17:06:18
+[RUN-CNS] [TIME 974663.43 17432353.05] 11-20 17:06:18 fillseq buff_sw_t1 10000000 nvme0n1
+fillseq      :       1.536 micros/op 651185 ops/sec 15.357 seconds 10000000 operations;  509.2 MB/s
+Count: 10000000 Average: 1.5357  StdDev: 10.22
+[END-CNS] [TIME 974680.90 17432668.46] 11-20 17:06:35
+[RUN-CNS] [TIME 974680.91 17432668.51] 11-20 17:06:35 readseq buff_sr_t1 10000000 nvme0n1
+readseq      :       0.682 micros/op 1465953 ops/sec 6.821 seconds 10000000 operations; 1146.4 MB/s
+Count: 10000000 Average: 0.6821  StdDev: 4.21
+[END-CNS] [TIME 974688.04 17432801.70] 11-20 17:06:43
+[RUN-CNS] [TIME 974688.04 17432801.75] 11-20 17:06:43 readseq buff_sr_t16 10000000 nvme0n1
+readseq      :       0.914 micros/op 17505573 ops/sec 9.140 seconds 160000000 operations; 13689.6 MB/s
+Count: 160000000 Average: 0.9141  StdDev: 5.53
+[END-CNS] [TIME 974697.54 17432842.52] 11-20 17:06:52
+[RUN-CNS] [TIME 974697.54 17432842.58] 11-20 17:06:52 readseq buff_sr_auto_t1 10000000 nvme0n1
+readseq      :       1.296 micros/op 771392 ops/sec 12.964 seconds 10000000 operations;  603.2 MB/s
+Count: 10000000 Average: 1.2967  StdDev: 3.89
+[END-CNS] [TIME 974710.91 17433089.22] 11-20 17:07:05
+[RUN-CNS] [TIME 974710.91 17433089.27] 11-20 17:07:05 readseq buff_sr_auto_t16 10000000 nvme0n1
+readseq      :       1.585 micros/op 10093873 ops/sec 15.851 seconds 160000000 operations; 7893.5 MB/s
+Count: 160000000 Average: 1.5852  StdDev: 4.50
+[END-CNS] [TIME 974727.17 17433157.13] 11-20 17:07:22
+[RUN-CNS] [TIME 974727.17 17433157.19] 11-20 17:07:22 readrandom buff_rr_t1 1000000 nvme0n1
+readrandom   :       9.895 micros/op 101064 ops/sec 9.895 seconds 1000000 operations;   79.0 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 9.8955  StdDev: 22.63
+[END-CNS] [TIME 974737.46 17433345.54] 11-20 17:07:32
+[RUN-CNS] [TIME 974737.47 17433345.59] 11-20 17:07:32 readrandom buff_rr_t16 1000000 nvme0n1
+readrandom   :       8.976 micros/op 1630716 ops/sec 9.812 seconds 16000000 operations; 1275.2 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 8.9764  StdDev: 7.98
+[END-CNS] [TIME 974747.45 17433392.25] 11-20 17:07:42
+[RUN-CNS] [TIME 974747.46 17433392.31] 11-20 17:07:42 overwrite buff_over_t1 10000000 nvme0n1
+overwrite    :       3.998 micros/op 250125 ops/sec 39.980 seconds 10000000 operations;  195.6 MB/s
+Count: 10000000 Average: 3.9980  StdDev: 44.79
+[END-CNS] [TIME 974787.68 17434107.67] 11-20 17:08:22
+[RUN-CNS] [TIME 974787.68 17434107.72] 11-20 17:08:22 overwrite buff_over_t16 10000000 nvme0n1
+overwrite    :      84.070 micros/op 190270 ops/sec 840.909 seconds 160000000 operations;  148.8 MB/s
+Count: 160000000 Average: 84.0699  StdDev: 803.41
+[END-CNS] [TIME 975629.04 17446603.31] 11-20 17:22:24
+[RUN-CNS] [TIME 975629.04 17446603.36] 11-20 17:22:24 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.237 micros/op 308912 ops/sec 32.372 seconds 10000000 operations;  241.6 MB/s
+Count: 10000000 Average: 3.2372  StdDev: 34.23
+[END-CNS] [TIME 975663.42 17447209.56] 11-20 17:22:58
+[RUN-CNS] [TIME 975663.43 17447209.61] 11-20 17:22:58 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      78.264 micros/op 204216 ops/sec 783.482 seconds 160000000 operations;  159.7 MB/s
+Count: 160000000 Average: 78.2639  StdDev: 783.38
+[END-CNS] [TIME 976448.95 17458780.22] 11-20 17:36:03
+[RUN-CNS] [TIME 976448.96 17458780.30] 11-20 17:36:03 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.548 micros/op 646070 ops/sec 15.478 seconds 10000000 operations;  505.2 MB/s
+Count: 10000000 Average: 1.5478  StdDev: 2.20
+[END-CNS] [TIME 976466.55 17459099.17] 11-20 17:36:21
+[RUN-CNS] [TIME 976466.55 17459099.22] 11-20 17:36:21 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.522 micros/op 1915053 ops/sec 5.222 seconds 10000000 operations; 1497.6 MB/s
+Count: 10000000 Average: 0.5224  StdDev: 3.50
+[END-CNS] [TIME 976472.10 17459200.19] 11-20 17:36:27
+[RUN-CNS] [TIME 976472.10 17459200.24] 11-20 17:36:27 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.375 micros/op 11639983 ops/sec 13.746 seconds 160000000 operations; 9102.6 MB/s
+Count: 160000000 Average: 1.3746  StdDev: 25.05
+[END-CNS] [TIME 976485.99 17459263.58] 11-20 17:36:40
+[RUN-CNS] [TIME 976486.00 17459263.63] 11-20 17:36:40 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.502 micros/op 1991807 ops/sec 5.021 seconds 10000000 operations; 1557.6 MB/s
+Count: 10000000 Average: 0.5024  StdDev: 8.19
+[END-CNS] [TIME 976491.21 17459361.30] 11-20 17:36:46
+[RUN-CNS] [TIME 976491.22 17459361.40] 11-20 17:36:46 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.785 micros/op 20375487 ops/sec 7.853 seconds 160000000 operations; 15933.9 MB/s
+Count: 160000000 Average: 0.7853  StdDev: 34.25
+[END-CNS] [TIME 976499.29 17459410.01] 11-20 17:36:54
+[RUN-CNS] [TIME 976499.29 17459410.06] 11-20 17:36:54 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      77.766 micros/op 12859 ops/sec 77.766 seconds 1000000 operations;   10.1 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 77.7695  StdDev: 19.70
+[END-CNS] [TIME 976577.25 17460856.24] 11-20 17:38:12
+[RUN-CNS] [TIME 976577.26 17460856.29] 11-20 17:38:12 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      73.803 micros/op 216272 ops/sec 73.981 seconds 16000000 operations;  169.1 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 73.8037  StdDev: 17.52
+[END-CNS] [TIME 976651.39 17461366.94] 11-20 17:39:26
+[RUN-CNS] [TIME 976651.39 17461366.99] 11-20 17:39:26 overwrite over_t1 10000000 nvme0n1
+overwrite    :       4.146 micros/op 241169 ops/sec 41.465 seconds 10000000 operations;  188.6 MB/s
+Count: 10000000 Average: 4.1465  StdDev: 45.98
+[END-CNS] [TIME 976693.06 17462106.34] 11-20 17:40:08
+[RUN-CNS] [TIME 976693.07 17462106.51] 11-20 17:40:08 overwrite over_t16 10000000 nvme0n1
+overwrite    :      80.605 micros/op 198460 ops/sec 806.207 seconds 160000000 operations;  155.2 MB/s
+Count: 160000000 Average: 80.6049  StdDev: 787.19
+[END-CNS] [TIME 977499.73 17473997.83] 11-20 17:53:34
+[RUN-FDP] [TIME 977499.73 17473997.88] 11-20 17:53:34 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.943 micros/op 253597 ops/sec 39.433 seconds 10000000 operations;  198.3 MB/s
+Count: 10000000 Average: 3.9433  StdDev: 549.68
+[END-FDP] [TIME 977541.95 17474762.05] 11-20 17:54:16
+[RUN-FDP] [TIME 977541.96 17474762.09] 11-20 17:54:16 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      83.483 micros/op 190780 ops/sec 838.662 seconds 160000000 operations;  149.2 MB/s
+Count: 160000000 Average: 83.4828  StdDev: 1739.26
+[END-FDP] [TIME 978384.65 17487814.35] 11-20 18:08:19
+[RUN-FDP] [TIME 978384.65 17487814.39] 11-20 18:08:19 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       0.998 micros/op 1001577 ops/sec 9.984 seconds 10000000 operations;  783.2 MB/s
+Count: 10000000 Average: 0.9984  StdDev: 15.54
+[END-FDP] [TIME 978407.06 17488229.78] 11-20 18:08:42
+[RUN-FDP] [TIME 978407.07 17488229.89] 11-20 18:08:42 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.471 micros/op 2124453 ops/sec 4.668 seconds 9916301 operations; 1661.3 MB/s
+Count: 9916301 Average: 0.4709  StdDev: 5.40
+[END-FDP] [TIME 978417.26 17488423.38] 11-20 18:08:52
+[RUN-FDP] [TIME 978417.26 17488423.41] 11-20 18:08:52 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.073 micros/op 14913768 ops/sec 10.639 seconds 158660816 operations; 11662.8 MB/s
+Count: 158660816 Average: 1.0729  StdDev: 23.27
+[END-FDP] [TIME 978437.33 17488648.72] 11-20 18:09:12
+[RUN-FDP] [TIME 978437.33 17488648.75] 11-20 18:09:12 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.493 micros/op 2029451 ops/sec 4.886 seconds 9916301 operations; 1587.1 MB/s
+Count: 9916301 Average: 0.4927  StdDev: 6.90
+[END-FDP] [TIME 978447.39 17488837.64] 11-20 18:09:22
+[RUN-FDP] [TIME 978447.39 17488837.68] 11-20 18:09:22 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.787 micros/op 20337670 ops/sec 7.801 seconds 158660816 operations; 15904.3 MB/s
+Count: 158660816 Average: 0.7868  StdDev: 30.34
+[END-FDP] [TIME 978457.48 17488905.35] 11-20 18:09:32
+[RUN-FDP] [TIME 978457.48 17488905.39] 11-20 18:09:32 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      64.242 micros/op 15566 ops/sec 64.242 seconds 1000000 operations;   12.2 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 64.2444  StdDev: 13.62
+[END-FDP] [TIME 978527.54 17490218.90] 11-20 18:10:42
+[RUN-FDP] [TIME 978527.55 17490219.06] 11-20 18:10:42 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      72.014 micros/op 216558 ops/sec 73.883 seconds 16000000 operations;  169.4 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 72.0147  StdDev: 19.06
+[END-FDP] [TIME 978607.65 17490631.96] 11-20 18:12:02
+[RUN-FDP] [TIME 978607.65 17490632.04] 11-20 18:12:02 overwrite over_t1 10000000 nvme0n1
+overwrite    :       4.606 micros/op 217089 ops/sec 46.064 seconds 10000000 operations;  169.8 MB/s
+Count: 10000000 Average: 4.6066  StdDev: 496.87
+[END-FDP] [TIME 978657.77 17491544.24] 11-20 18:12:52
+[RUN-FDP] [TIME 978657.77 17491544.27] 11-20 18:12:52 overwrite over_t16 10000000 nvme0n1
+overwrite    :      85.863 micros/op 186290 ops/sec 858.873 seconds 160000000 operations;  145.7 MB/s
+Count: 160000000 Average: 85.8633  StdDev: 1649.26
+[END-FDP] [TIME 979518.47 17504854.75] 11-20 18:27:13
+[RUN-TOR_FS] [TIME 979518.47 17504854.79] fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.447 micros/op 290125 ops/sec 34.468 seconds 10000000 operations;  226.9 MB/s
+Count: 10000000 Average: 3.4468  StdDev: 55.16
+[END-TOR_FS] [TIME 979555.62 17505496.94]
+[RUN-TOR_FS] [TIME 979555.62 17505496.96] fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      84.765 micros/op 188725 ops/sec 847.794 seconds 160000000 operations;  147.6 MB/s
+Count: 160000000 Average: 84.7649  StdDev: 888.08
+[END-TOR_FS] [TIME 980406.06 17518519.55]
+[RUN-TOR_FS] [TIME 980406.06 17518519.57] fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.077 micros/op 928799 ops/sec 10.767 seconds 10000000 operations;  726.3 MB/s
+Count: 10000000 Average: 1.0767  StdDev: 45.85
+[END-TOR_FS] [TIME 980419.46 17518751.50]
+[RUN-TOR_FS] [TIME 980419.46 17518751.52] readseq sr_t1 10000000 nvme0n1
+readseq      :       0.662 micros/op 1511668 ops/sec 6.615 seconds 10000000 operations; 1182.1 MB/s
+Count: 10000000 Average: 0.6615  StdDev: 11.51
+[END-TOR_FS] [TIME 980426.79 17518887.26]
+[RUN-TOR_FS] [TIME 980426.79 17518887.29] readseq sr_t16 10000000 nvme0n1
+readseq      :       1.675 micros/op 9553223 ops/sec 16.748 seconds 160000000 operations; 7470.7 MB/s
+Count: 160000000 Average: 1.6754  StdDev: 42.01
+[END-TOR_FS] [TIME 980444.07 17518953.92]
+[RUN-TOR_FS] [TIME 980444.07 17518953.94] readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.546 micros/op 1830719 ops/sec 5.462 seconds 10000000 operations; 1431.6 MB/s
+Count: 10000000 Average: 0.5481  StdDev: 14.43
+[END-TOR_FS] [TIME 980450.06 17519062.90]
+[RUN-TOR_FS] [TIME 980450.06 17519062.92] readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       1.409 micros/op 11354652 ops/sec 14.091 seconds 160000000 operations; 8879.5 MB/s
+Count: 160000000 Average: 1.4096  StdDev: 66.31
+[END-TOR_FS] [TIME 980464.68 17519113.18]
+[RUN-TOR_FS] [TIME 980464.69 17519113.20] readrandom rr_t1 1000000 nvme0n1
+readrandom   :      65.133 micros/op 15353 ops/sec 65.133 seconds 1000000 operations;   12.0 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 65.1492  StdDev: 36.28
+[END-TOR_FS] [TIME 980530.35 17520321.78]
+[RUN-TOR_FS] [TIME 980530.35 17520321.81] readrandom rr_t16 1000000 nvme0n1
+readrandom   :      74.507 micros/op 210026 ops/sec 76.181 seconds 16000000 operations;  164.2 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 74.5140  StdDev: 45.39
+[END-TOR_FS] [TIME 980607.06 17520621.52]
+[RUN-TOR_FS] [TIME 980607.06 17520621.54] overwrite over_t1 10000000 nvme0n1
+overwrite    :       3.780 micros/op 264550 ops/sec 37.800 seconds 10000000 operations;  206.9 MB/s
+Count: 10000000 Average: 3.7800  StdDev: 58.22
+[END-TOR_FS] [TIME 980645.47 17521280.05]
+[RUN-TOR_FS] [TIME 980645.47 17521280.08] overwrite over_t16 10000000 nvme0n1
+overwrite    :      87.926 micros/op 181268 ops/sec 882.669 seconds 160000000 operations;  141.8 MB/s
+Count: 160000000 Average: 87.9268  StdDev: 889.82
+[END-TOR_FS] [TIME 981528.96 17534846.11]
+[RUN-CNS] [TIME 981528.96 17534846.14] 11-20 19:00:43 fillrandom buff_rw_t1 10000000 nvme0n1
+fillrandom   :       3.270 micros/op 305839 ops/sec 32.697 seconds 10000000 operations;  239.2 MB/s
+Count: 10000000 Average: 3.2697  StdDev: 34.49
+[END-CNS] [TIME 981563.63 17535458.05] 11-20 19:01:18
+[RUN-CNS] [TIME 981563.64 17535458.24] 11-20 19:01:18 fillrandom buff_rw_t16 10000000 nvme0n1
+fillrandom   :      79.618 micros/op 200931 ops/sec 796.291 seconds 160000000 operations;  157.1 MB/s
+Count: 160000000 Average: 79.6181  StdDev: 784.76
+[END-CNS] [TIME 982361.99 17547222.41] 11-20 19:14:36
+[RUN-CNS] [TIME 982361.99 17547222.47] 11-20 19:14:36 fillseq buff_sw_t1 10000000 nvme0n1
+fillseq      :       1.515 micros/op 660078 ops/sec 15.150 seconds 10000000 operations;  516.2 MB/s
+Count: 10000000 Average: 1.5150  StdDev: 15.62
+[END-CNS] [TIME 982379.16 17547533.62] 11-20 19:14:54
+[RUN-CNS] [TIME 982379.16 17547533.68] 11-20 19:14:54 readseq buff_sr_t1 10000000 nvme0n1
+readseq      :       0.693 micros/op 1442707 ops/sec 6.931 seconds 10000000 operations; 1128.2 MB/s
+Count: 10000000 Average: 0.6931  StdDev: 4.22
+[END-CNS] [TIME 982386.45 17547666.87] 11-20 19:15:01
+[RUN-CNS] [TIME 982386.46 17547666.99] 11-20 19:15:01 readseq buff_sr_t16 10000000 nvme0n1
+readseq      :       0.930 micros/op 17198494 ops/sec 9.303 seconds 160000000 operations; 13449.4 MB/s
+Count: 160000000 Average: 0.9302  StdDev: 5.80
+[END-CNS] [TIME 982396.14 17547706.78] 11-20 19:15:11
+[RUN-CNS] [TIME 982396.15 17547706.84] 11-20 19:15:11 readseq buff_sr_auto_t1 10000000 nvme0n1
+readseq      :       1.284 micros/op 778989 ops/sec 12.837 seconds 10000000 operations;  609.2 MB/s
+Count: 10000000 Average: 1.2838  StdDev: 3.53
+[END-CNS] [TIME 982409.35 17547955.52] 11-20 19:15:24
+[RUN-CNS] [TIME 982409.36 17547955.68] 11-20 19:15:24 readseq buff_sr_auto_t16 10000000 nvme0n1
+readseq      :       1.602 micros/op 9985901 ops/sec 16.023 seconds 160000000 operations; 7809.1 MB/s
+Count: 160000000 Average: 1.6024  StdDev: 4.74
+[END-CNS] [TIME 982425.78 17548019.93] 11-20 19:15:40
+[RUN-CNS] [TIME 982425.79 17548019.98] 11-20 19:15:40 readrandom buff_rr_t1 1000000 nvme0n1
+readrandom   :      10.288 micros/op 97200 ops/sec 10.288 seconds 1000000 operations;   76.0 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 10.2891  StdDev: 23.13
+[END-CNS] [TIME 982436.46 17548219.46] 11-20 19:15:51
+[RUN-CNS] [TIME 982436.47 17548219.57] 11-20 19:15:51 readrandom buff_rr_t16 1000000 nvme0n1
+readrandom   :       9.381 micros/op 1635360 ops/sec 9.784 seconds 16000000 operations; 1278.9 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 9.3832  StdDev: 8.96
+[END-CNS] [TIME 982446.46 17548259.83] 11-20 19:16:01
+[RUN-CNS] [TIME 982446.46 17548259.89] 11-20 19:16:01 overwrite buff_over_t1 10000000 nvme0n1
+overwrite    :       4.003 micros/op 249833 ops/sec 40.027 seconds 10000000 operations;  195.4 MB/s
+Count: 10000000 Average: 4.0028  StdDev: 44.78
+[END-CNS] [TIME 982486.76 17548976.46] 11-20 19:16:41
+[RUN-CNS] [TIME 982486.77 17548976.65] 11-20 19:16:41 overwrite buff_over_t16 10000000 nvme0n1
+overwrite    :      84.243 micros/op 189093 ops/sec 846.141 seconds 160000000 operations;  147.9 MB/s
+Count: 160000000 Average: 84.2429  StdDev: 794.95
+[END-CNS] [TIME 983333.47 17561535.42] 11-20 19:30:48
+[RUN-CNS] [TIME 983333.47 17561535.47] 11-20 19:30:48 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.216 micros/op 310980 ops/sec 32.156 seconds 10000000 operations;  243.2 MB/s
+Count: 10000000 Average: 3.2156  StdDev: 33.78
+[END-CNS] [TIME 983367.66 17562140.67] 11-20 19:31:22
+[RUN-CNS] [TIME 983367.66 17562140.72] 11-20 19:31:22 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      78.397 micros/op 204046 ops/sec 784.136 seconds 160000000 operations;  159.6 MB/s
+Count: 160000000 Average: 78.3968  StdDev: 788.17
+[END-CNS] [TIME 984153.76 17573723.06] 11-20 19:44:28
+[RUN-CNS] [TIME 984153.77 17573723.27] 11-20 19:44:28 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.541 micros/op 648798 ops/sec 15.413 seconds 10000000 operations;  507.4 MB/s
+Count: 10000000 Average: 1.5413  StdDev: 2.51
+[END-CNS] [TIME 984171.32 17574039.90] 11-20 19:44:46
+[RUN-CNS] [TIME 984171.32 17574039.97] 11-20 19:44:46 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.510 micros/op 1960431 ops/sec 5.101 seconds 10000000 operations; 1533.1 MB/s
+Count: 10000000 Average: 0.5103  StdDev: 3.48
+[END-CNS] [TIME 984176.73 17574140.27] 11-20 19:44:51
+[RUN-CNS] [TIME 984176.74 17574140.45] 11-20 19:44:51 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.366 micros/op 11713168 ops/sec 13.660 seconds 160000000 operations; 9159.8 MB/s
+Count: 160000000 Average: 1.3660  StdDev: 25.19
+[END-CNS] [TIME 984190.59 17574202.21] 11-20 19:45:05
+[RUN-CNS] [TIME 984190.60 17574202.40] 11-20 19:45:05 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.501 micros/op 1996734 ops/sec 5.008 seconds 10000000 operations; 1561.5 MB/s
+Count: 10000000 Average: 0.5008  StdDev: 8.07
+[END-CNS] [TIME 984195.79 17574299.75] 11-20 19:45:10
+[RUN-CNS] [TIME 984195.80 17574299.95] 11-20 19:45:10 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.805 micros/op 19871204 ops/sec 8.052 seconds 160000000 operations; 15539.5 MB/s
+Count: 160000000 Average: 0.8052  StdDev: 35.55
+[END-CNS] [TIME 984204.08 17574348.80] 11-20 19:45:19
+[RUN-CNS] [TIME 984204.08 17574348.85] 11-20 19:45:19 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      77.619 micros/op 12883 ops/sec 77.619 seconds 1000000 operations;   10.1 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 77.6191  StdDev: 18.51
+[END-CNS] [TIME 984281.85 17575794.27] 11-20 19:46:36
+[RUN-CNS] [TIME 984281.86 17575794.32] 11-20 19:46:36 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      74.606 micros/op 214061 ops/sec 74.745 seconds 16000000 operations;  167.4 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 74.6072  StdDev: 20.09
+[END-CNS] [TIME 984356.78 17576311.50] 11-20 19:47:51
+[RUN-CNS] [TIME 984356.78 17576311.56] 11-20 19:47:51 overwrite over_t1 10000000 nvme0n1
+overwrite    :       3.809 micros/op 262564 ops/sec 38.086 seconds 10000000 operations;  205.3 MB/s
+Count: 10000000 Average: 3.8087  StdDev: 42.15
+[END-CNS] [TIME 984395.10 17576990.91] 11-20 19:48:30
+[RUN-CNS] [TIME 984395.10 17576990.96] 11-20 19:48:30 overwrite over_t16 10000000 nvme0n1
+overwrite    :      80.975 micros/op 197569 ops/sec 809.841 seconds 160000000 operations;  154.5 MB/s
+Count: 160000000 Average: 80.9756  StdDev: 781.32
+[END-CNS] [TIME 985205.42 17588974.36] 11-20 20:02:00
+[RUN-FDP] [TIME 985205.43 17588974.57] 11-20 20:02:00 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       4.088 micros/op 244624 ops/sec 40.879 seconds 10000000 operations;  191.3 MB/s
+Count: 10000000 Average: 4.0879  StdDev: 624.68
+[END-FDP] [TIME 985257.99 17589945.53] 11-20 20:02:52
+[RUN-FDP] [TIME 985258.00 17589945.58] 11-20 20:02:52 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      84.330 micros/op 189678 ops/sec 843.534 seconds 160000000 operations;  148.3 MB/s
+Count: 160000000 Average: 84.3297  StdDev: 1772.07
+[END-FDP] [TIME 986110.60 17603183.28] 11-20 20:17:05
+[RUN-FDP] [TIME 986110.60 17603183.33] 11-20 20:17:05 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       0.989 micros/op 1010890 ops/sec 9.892 seconds 10000000 operations;  790.5 MB/s
+Count: 10000000 Average: 0.9892  StdDev: 11.26
+[END-FDP] [TIME 986132.78 17603592.74] 11-20 20:17:27
+[RUN-FDP] [TIME 986132.78 17603592.78] 11-20 20:17:27 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.469 micros/op 2133691 ops/sec 4.647 seconds 9916295 operations; 1668.6 MB/s
+Count: 9916295 Average: 0.4688  StdDev: 5.37
+[END-FDP] [TIME 986142.95 17603787.79] 11-20 20:17:37
+[RUN-FDP] [TIME 986142.95 17603787.83] 11-20 20:17:37 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.084 micros/op 14755529 ops/sec 10.753 seconds 158660720 operations; 11539.0 MB/s
+Count: 158660720 Average: 1.0844  StdDev: 23.35
+[END-FDP] [TIME 986163.02 17604007.45] 11-20 20:17:58
+[RUN-FDP] [TIME 986163.03 17604007.49] 11-20 20:17:58 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.485 micros/op 2062365 ops/sec 4.808 seconds 9916295 operations; 1612.8 MB/s
+Count: 9916295 Average: 0.4851  StdDev: 6.88
+[END-FDP] [TIME 986173.09 17604200.38] 11-20 20:18:08
+[RUN-FDP] [TIME 986173.10 17604200.42] 11-20 20:18:08 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.781 micros/op 20486146 ops/sec 7.745 seconds 158660720 operations; 16020.4 MB/s
+Count: 158660720 Average: 0.7811  StdDev: 30.85
+[END-FDP] [TIME 986183.17 17604274.16] 11-20 20:18:18
+[RUN-FDP] [TIME 986183.17 17604274.20] 11-20 20:18:18 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      64.111 micros/op 15597 ops/sec 64.111 seconds 1000000 operations;   12.2 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 64.1142  StdDev: 12.83
+[END-FDP] [TIME 986253.25 17605586.18] 11-20 20:19:28
+[RUN-FDP] [TIME 986253.26 17605586.30] 11-20 20:19:28 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      71.997 micros/op 216385 ops/sec 73.942 seconds 16000000 operations;  169.2 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 71.9980  StdDev: 19.88
+[END-FDP] [TIME 986333.32 17605991.80] 11-20 20:20:48
+[RUN-FDP] [TIME 986333.32 17605991.83] 11-20 20:20:48 overwrite over_t1 10000000 nvme0n1
+overwrite    :       4.655 micros/op 214834 ops/sec 46.547 seconds 10000000 operations;  168.0 MB/s
+Count: 10000000 Average: 4.6549  StdDev: 525.43
+[END-FDP] [TIME 986383.40 17606906.38] 11-20 20:21:38
+[RUN-FDP] [TIME 986383.40 17606906.41] 11-20 20:21:38 overwrite over_t16 10000000 nvme0n1
+overwrite    :      86.797 micros/op 183972 ops/sec 869.693 seconds 160000000 operations;  143.9 MB/s
+Count: 160000000 Average: 86.7975  StdDev: 1800.88
+[END-FDP] [TIME 987254.14 17620438.60] 11-20 20:36:09
+[RUN-TOR_FS] [TIME 987254.14 17620438.65] fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.423 micros/op 292175 ops/sec 34.226 seconds 10000000 operations;  228.5 MB/s
+Count: 10000000 Average: 3.4226  StdDev: 53.64
+[END-TOR_FS] [TIME 987291.28 17621079.66]
+[RUN-TOR_FS] [TIME 987291.28 17621079.69] fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      84.791 micros/op 188667 ops/sec 848.055 seconds 160000000 operations;  147.5 MB/s
+Count: 160000000 Average: 84.7909  StdDev: 894.25
+[END-TOR_FS] [TIME 988142.06 17634093.26]
+[RUN-TOR_FS] [TIME 988142.06 17634093.28] fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.072 micros/op 932573 ops/sec 10.723 seconds 10000000 operations;  729.3 MB/s
+Count: 10000000 Average: 1.0723  StdDev: 46.69
+[END-TOR_FS] [TIME 988155.48 17634329.87]
+[RUN-TOR_FS] [TIME 988155.48 17634329.90] readseq sr_t1 10000000 nvme0n1
+readseq      :       0.682 micros/op 1466034 ops/sec 6.821 seconds 10000000 operations; 1146.5 MB/s
+Count: 10000000 Average: 0.6837  StdDev: 11.77
+[END-TOR_FS] [TIME 988163.05 17634465.62]
+[RUN-TOR_FS] [TIME 988163.05 17634465.65] readseq sr_t16 10000000 nvme0n1
+readseq      :       1.677 micros/op 9541517 ops/sec 16.769 seconds 160000000 operations; 7461.6 MB/s
+Count: 160000000 Average: 1.6775  StdDev: 42.04
+[END-TOR_FS] [TIME 988180.34 17634533.77]
+[RUN-TOR_FS] [TIME 988180.35 17634533.80] readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.533 micros/op 1877580 ops/sec 5.326 seconds 10000000 operations; 1468.3 MB/s
+Count: 10000000 Average: 0.5326  StdDev: 14.28
+[END-TOR_FS] [TIME 988186.20 17634642.10]
+[RUN-TOR_FS] [TIME 988186.20 17634642.13] readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       1.411 micros/op 11340499 ops/sec 14.109 seconds 160000000 operations; 8868.4 MB/s
+Count: 160000000 Average: 1.4120  StdDev: 66.20
+[END-TOR_FS] [TIME 988200.85 17634692.33]
+[RUN-TOR_FS] [TIME 988200.85 17634692.35] readrandom rr_t1 1000000 nvme0n1
+readrandom   :      65.126 micros/op 15354 ops/sec 65.126 seconds 1000000 operations;   12.0 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 65.1412  StdDev: 36.12
+[END-TOR_FS] [TIME 988266.51 17635906.02]
+[RUN-TOR_FS] [TIME 988266.51 17635906.04] readrandom rr_t16 1000000 nvme0n1
+readrandom   :      74.340 micros/op 210615 ops/sec 75.968 seconds 16000000 operations;  164.7 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 74.3472  StdDev: 41.43
+[END-TOR_FS] [TIME 988343.01 17636204.77]
+[RUN-TOR_FS] [TIME 988343.02 17636204.79] overwrite over_t1 10000000 nvme0n1
+overwrite    :       3.731 micros/op 268056 ops/sec 37.306 seconds 10000000 operations;  209.6 MB/s
+Count: 10000000 Average: 3.7322  StdDev: 59.77
+[END-TOR_FS] [TIME 988380.94 17636854.04]
+[RUN-TOR_FS] [TIME 988380.94 17636854.06] overwrite over_t16 10000000 nvme0n1
+overwrite    :      88.045 micros/op 181560 ops/sec 881.249 seconds 160000000 operations;  142.0 MB/s
+Count: 160000000 Average: 88.0453  StdDev: 895.85
+[END-TOR_FS] [TIME 989263.06 17650398.35]
+[RUN-CNS] [TIME 989263.06 17650398.38] 11-20 21:09:38 fillrandom buff_rw_t1 10000000 nvme0n1
+fillrandom   :       3.277 micros/op 305151 ops/sec 32.771 seconds 10000000 operations;  238.6 MB/s
+Count: 10000000 Average: 3.2771  StdDev: 34.35
+[END-CNS] [TIME 989297.91 17651011.64] 11-20 21:10:12
+[RUN-CNS] [TIME 989297.92 17651011.77] 11-20 21:10:12 fillrandom buff_rw_t16 10000000 nvme0n1
+fillrandom   :      79.694 micros/op 200738 ops/sec 797.059 seconds 160000000 operations;  157.0 MB/s
+Count: 160000000 Average: 79.6941  StdDev: 779.49
+[END-CNS] [TIME 990097.03 17662820.44] 11-20 21:23:32
+[RUN-CNS] [TIME 990097.04 17662820.59] 11-20 21:23:32 fillseq buff_sw_t1 10000000 nvme0n1
+fillseq      :       1.530 micros/op 653468 ops/sec 15.303 seconds 10000000 operations;  511.0 MB/s
+Count: 10000000 Average: 1.5303  StdDev: 11.12
+[END-CNS] [TIME 990114.48 17663133.51] 11-20 21:23:49
+[RUN-CNS] [TIME 990114.49 17663133.70] 11-20 21:23:49 readseq buff_sr_t1 10000000 nvme0n1
+readseq      :       0.689 micros/op 1452250 ops/sec 6.886 seconds 10000000 operations; 1135.7 MB/s
+Count: 10000000 Average: 0.6886  StdDev: 4.22
+[END-CNS] [TIME 990121.80 17663269.75] 11-20 21:23:56
+[RUN-CNS] [TIME 990121.80 17663269.81] 11-20 21:23:56 readseq buff_sr_t16 10000000 nvme0n1
+readseq      :       0.923 micros/op 17328481 ops/sec 9.233 seconds 160000000 operations; 13551.1 MB/s
+Count: 160000000 Average: 0.9235  StdDev: 5.78
+[END-CNS] [TIME 990131.40 17663310.44] 11-20 21:24:06
+[RUN-CNS] [TIME 990131.40 17663310.49] 11-20 21:24:06 readseq buff_sr_auto_t1 10000000 nvme0n1
+readseq      :       1.292 micros/op 774122 ops/sec 12.918 seconds 10000000 operations;  605.4 MB/s
+Count: 10000000 Average: 1.2918  StdDev: 3.49
+[END-CNS] [TIME 990144.68 17663555.45] 11-20 21:24:19
+[RUN-CNS] [TIME 990144.68 17663555.54] 11-20 21:24:19 readseq buff_sr_auto_t16 10000000 nvme0n1
+readseq      :       1.585 micros/op 10094746 ops/sec 15.850 seconds 160000000 operations; 7894.2 MB/s
+Count: 160000000 Average: 1.5850  StdDev: 4.63
+[END-CNS] [TIME 990160.90 17663623.64] 11-20 21:24:35
+[RUN-CNS] [TIME 990160.90 17663623.70] 11-20 21:24:35 readrandom buff_rr_t1 1000000 nvme0n1
+readrandom   :       9.741 micros/op 102654 ops/sec 9.741 seconds 1000000 operations;   80.3 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 9.7419  StdDev: 22.15
+[END-CNS] [TIME 990171.06 17663809.48] 11-20 21:24:46
+[RUN-CNS] [TIME 990171.07 17663809.54] 11-20 21:24:46 readrandom buff_rr_t16 1000000 nvme0n1
+readrandom   :       9.161 micros/op 1657608 ops/sec 9.652 seconds 16000000 operations; 1296.3 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 9.1623  StdDev: 7.16
+[END-CNS] [TIME 990180.91 17663850.35] 11-20 21:24:55
+[RUN-CNS] [TIME 990180.91 17663850.41] 11-20 21:24:55 overwrite buff_over_t1 10000000 nvme0n1
+overwrite    :       4.067 micros/op 245867 ops/sec 40.672 seconds 10000000 operations;  192.3 MB/s
+Count: 10000000 Average: 4.0673  StdDev: 45.30
+[END-CNS] [TIME 990221.85 17664568.58] 11-20 21:25:36
+[RUN-CNS] [TIME 990221.85 17664568.69] 11-20 21:25:36 overwrite buff_over_t16 10000000 nvme0n1
+overwrite    :      83.954 micros/op 190549 ops/sec 839.675 seconds 160000000 operations;  149.0 MB/s
+Count: 160000000 Average: 83.9544  StdDev: 792.22
+[END-CNS] [TIME 991062.04 17677011.98] 11-20 21:39:37
+[RUN-CNS] [TIME 991062.04 17677012.03] 11-20 21:39:37 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.244 micros/op 308266 ops/sec 32.439 seconds 10000000 operations;  241.1 MB/s
+Count: 10000000 Average: 3.2439  StdDev: 34.16
+[END-CNS] [TIME 991096.57 17677618.72] 11-20 21:40:11
+[RUN-CNS] [TIME 991096.57 17677618.77] 11-20 21:40:11 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      78.167 micros/op 204260 ops/sec 783.314 seconds 160000000 operations;  159.7 MB/s
+Count: 160000000 Average: 78.1669  StdDev: 781.58
+[END-CNS] [TIME 991881.89 17689157.22] 11-20 21:53:16
+[RUN-CNS] [TIME 991881.89 17689157.28] 11-20 21:53:16 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.544 micros/op 647777 ops/sec 15.437 seconds 10000000 operations;  506.6 MB/s
+Count: 10000000 Average: 1.5437  StdDev: 2.34
+[END-CNS] [TIME 991899.39 17689475.12] 11-20 21:53:34
+[RUN-CNS] [TIME 991899.40 17689475.22] 11-20 21:53:34 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.522 micros/op 1915407 ops/sec 5.221 seconds 10000000 operations; 1497.9 MB/s
+Count: 10000000 Average: 0.5223  StdDev: 3.50
+[END-CNS] [TIME 991904.97 17689577.14] 11-20 21:53:39
+[RUN-CNS] [TIME 991904.98 17689577.20] 11-20 21:53:39 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.388 micros/op 11525231 ops/sec 13.883 seconds 160000000 operations; 9012.9 MB/s
+Count: 160000000 Average: 1.3883  StdDev: 26.44
+[END-CNS] [TIME 991919.03 17689641.15] 11-20 21:53:54
+[RUN-CNS] [TIME 991919.03 17689641.20] 11-20 21:53:54 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.502 micros/op 1992577 ops/sec 5.019 seconds 10000000 operations; 1558.2 MB/s
+Count: 10000000 Average: 0.5019  StdDev: 8.04
+[END-CNS] [TIME 991924.21 17689738.42] 11-20 21:53:59
+[RUN-CNS] [TIME 991924.21 17689738.52] 11-20 21:53:59 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.815 micros/op 19628720 ops/sec 8.151 seconds 160000000 operations; 15349.9 MB/s
+Count: 160000000 Average: 0.8151  StdDev: 36.22
+[END-CNS] [TIME 991932.58 17689786.64] 11-20 21:54:07
+[RUN-CNS] [TIME 991932.58 17689786.74] 11-20 21:54:07 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      76.365 micros/op 13095 ops/sec 76.365 seconds 1000000 operations;   10.2 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 76.3692  StdDev: 19.38
+[END-CNS] [TIME 992009.24 17691206.29] 11-20 21:55:24
+[RUN-CNS] [TIME 992009.25 17691206.52] 11-20 21:55:24 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      74.987 micros/op 212985 ops/sec 75.122 seconds 16000000 operations;  166.6 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 74.9877  StdDev: 20.81
+[END-CNS] [TIME 992084.55 17691738.20] 11-20 21:56:39
+[RUN-CNS] [TIME 992084.55 17691738.26] 11-20 21:56:39 overwrite over_t1 10000000 nvme0n1
+overwrite    :       4.096 micros/op 244145 ops/sec 40.959 seconds 10000000 operations;  190.9 MB/s
+Count: 10000000 Average: 4.0959  StdDev: 45.34
+[END-CNS] [TIME 992125.72 17692462.76] 11-20 21:57:20
+[RUN-CNS] [TIME 992125.73 17692462.83] 11-20 21:57:20 overwrite over_t16 10000000 nvme0n1
+overwrite    :      80.948 micros/op 197630 ops/sec 809.593 seconds 160000000 operations;  154.5 MB/s
+Count: 160000000 Average: 80.9481  StdDev: 783.41
+[END-CNS] [TIME 992935.73 17704421.32] 11-20 22:10:50
+[RUN-FDP] [TIME 992935.74 17704421.46] 11-20 22:10:50 fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.864 micros/op 258828 ops/sec 38.636 seconds 10000000 operations;  202.4 MB/s
+Count: 10000000 Average: 3.8636  StdDev: 448.42
+[END-FDP] [TIME 992978.04 17705187.25] 11-20 22:11:33
+[RUN-FDP] [TIME 992978.04 17705187.29] 11-20 22:11:33 fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      83.884 micros/op 190645 ops/sec 839.253 seconds 160000000 operations;  149.1 MB/s
+Count: 160000000 Average: 83.8839  StdDev: 1794.98
+[END-FDP] [TIME 993820.65 17718231.03] 11-20 22:25:35
+[RUN-FDP] [TIME 993820.66 17718231.08] 11-20 22:25:35 fillseq sw_t1 10000000 nvme0n1
+fillseq      :       0.998 micros/op 1002131 ops/sec 9.979 seconds 10000000 operations;  783.7 MB/s
+Count: 10000000 Average: 0.9979  StdDev: 12.25
+[END-FDP] [TIME 993842.89 17718642.79] 11-20 22:25:57
+[RUN-FDP] [TIME 993842.89 17718642.83] 11-20 22:25:57 readseq sr_t1 10000000 nvme0n1
+readseq      :       0.470 micros/op 2126473 ops/sec 4.663 seconds 9916295 operations; 1662.9 MB/s
+Count: 9916295 Average: 0.4704  StdDev: 5.29
+[END-FDP] [TIME 993853.06 17718837.63] 11-20 22:26:08
+[RUN-FDP] [TIME 993853.06 17718837.67] 11-20 22:26:08 readseq sr_t16 10000000 nvme0n1
+readseq      :       1.066 micros/op 15002481 ops/sec 10.576 seconds 158660720 operations; 11732.1 MB/s
+Count: 158660720 Average: 1.0666  StdDev: 23.07
+[END-FDP] [TIME 993873.12 17719058.49] 11-20 22:26:28
+[RUN-FDP] [TIME 993873.12 17719058.53] 11-20 22:26:28 readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.486 micros/op 2057032 ops/sec 4.821 seconds 9916295 operations; 1608.6 MB/s
+Count: 9916295 Average: 0.4861  StdDev: 6.94
+[END-FDP] [TIME 993883.19 17719249.70] 11-20 22:26:38
+[RUN-FDP] [TIME 993883.19 17719249.74] 11-20 22:26:38 readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       0.779 micros/op 20535874 ops/sec 7.726 seconds 158660720 operations; 16059.3 MB/s
+Count: 158660720 Average: 0.7792  StdDev: 30.27
+[END-FDP] [TIME 993893.27 17719317.76] 11-20 22:26:48
+[RUN-FDP] [TIME 993893.27 17719317.80] 11-20 22:26:48 readrandom rr_t1 1000000 nvme0n1
+readrandom   :      64.151 micros/op 15588 ops/sec 64.151 seconds 1000000 operations;   12.2 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 64.1512  StdDev: 12.49
+[END-FDP] [TIME 993963.35 17720623.27] 11-20 22:27:58
+[RUN-FDP] [TIME 993963.36 17720623.39] 11-20 22:27:58 readrandom rr_t16 1000000 nvme0n1
+readrandom   :      71.881 micros/op 217028 ops/sec 73.723 seconds 16000000 operations;  169.7 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 71.8821  StdDev: 18.77
+[END-FDP] [TIME 994043.44 17721035.92] 11-20 22:29:18
+[RUN-FDP] [TIME 994043.44 17721035.96] 11-20 22:29:18 overwrite over_t1 10000000 nvme0n1
+overwrite    :       4.788 micros/op 208871 ops/sec 47.876 seconds 10000000 operations;  163.3 MB/s
+Count: 10000000 Average: 4.7876  StdDev: 600.10
+[END-FDP] [TIME 994093.54 17721943.88] 11-20 22:30:08
+[RUN-FDP] [TIME 994093.54 17721943.91] 11-20 22:30:08 overwrite over_t16 10000000 nvme0n1
+overwrite    :      86.289 micros/op 185261 ops/sec 863.645 seconds 160000000 operations;  144.9 MB/s
+Count: 160000000 Average: 86.2888  StdDev: 1795.63
+[END-FDP] [TIME 994964.25 17735436.72] 11-20 22:44:39
+[RUN-TOR_FS] [TIME 994964.25 17735436.77] fillrandom rw_t1 10000000 nvme0n1
+fillrandom   :       3.425 micros/op 292004 ops/sec 34.246 seconds 10000000 operations;  228.4 MB/s
+Count: 10000000 Average: 3.4246  StdDev: 54.45
+[END-TOR_FS] [TIME 995001.37 17736083.96]
+[RUN-TOR_FS] [TIME 995001.37 17736083.98] fillrandom rw_t16 10000000 nvme0n1
+fillrandom   :      84.739 micros/op 188792 ops/sec 847.492 seconds 160000000 operations;  147.6 MB/s
+Count: 160000000 Average: 84.7386  StdDev: 891.20
+[END-TOR_FS] [TIME 995851.56 17749071.75]
+[RUN-TOR_FS] [TIME 995851.56 17749071.78] fillseq sw_t1 10000000 nvme0n1
+fillseq      :       1.076 micros/op 929371 ops/sec 10.760 seconds 10000000 operations;  726.8 MB/s
+Count: 10000000 Average: 1.0760  StdDev: 44.75
+[END-TOR_FS] [TIME 995864.96 17749302.14]
+[RUN-TOR_FS] [TIME 995864.96 17749302.16] readseq sr_t1 10000000 nvme0n1
+readseq      :       0.681 micros/op 1468229 ops/sec 6.811 seconds 10000000 operations; 1148.2 MB/s
+Count: 10000000 Average: 0.6828  StdDev: 12.26
+[END-TOR_FS] [TIME 995872.51 17749440.11]
+[RUN-TOR_FS] [TIME 995872.52 17749440.14] readseq sr_t16 10000000 nvme0n1
+readseq      :       1.682 micros/op 9514023 ops/sec 16.817 seconds 160000000 operations; 7440.1 MB/s
+Count: 160000000 Average: 1.6823  StdDev: 41.98
+[END-TOR_FS] [TIME 995889.86 17749506.97]
+[RUN-TOR_FS] [TIME 995889.86 17749507.00] readseq sr_auto_t1 10000000 nvme0n1
+readseq      :       0.556 micros/op 1798894 ops/sec 5.559 seconds 10000000 operations; 1406.8 MB/s
+Count: 10000000 Average: 0.5559  StdDev: 14.29
+[END-TOR_FS] [TIME 995895.93 17749615.90]
+[RUN-TOR_FS] [TIME 995895.93 17749615.93] readseq sr_auto_t16 10000000 nvme0n1
+readseq      :       1.438 micros/op 11127798 ops/sec 14.378 seconds 160000000 operations; 8702.1 MB/s
+Count: 160000000 Average: 1.4384  StdDev: 66.43
+[END-TOR_FS] [TIME 995910.84 17749666.40]
+[RUN-TOR_FS] [TIME 995910.84 17749666.43] readrandom rr_t1 1000000 nvme0n1
+readrandom   :      65.199 micros/op 15337 ops/sec 65.199 seconds 1000000 operations;   12.0 MB/s (1000000 of 1000000 found)
+Count: 1000000 Average: 65.2156  StdDev: 36.58
+[END-TOR_FS] [TIME 995976.56 17750871.83]
+[RUN-TOR_FS] [TIME 995976.56 17750871.86] readrandom rr_t16 1000000 nvme0n1
+readrandom   :      74.529 micros/op 211070 ops/sec 75.804 seconds 16000000 operations;  165.1 MB/s (1000000 of 1000000 found)
+Count: 16000000 Average: 74.5350  StdDev: 41.01
+[END-TOR_FS] [TIME 996052.89 17751161.77]
+[RUN-TOR_FS] [TIME 996052.89 17751161.80] overwrite over_t1 10000000 nvme0n1
+overwrite    :       3.956 micros/op 252755 ops/sec 39.564 seconds 10000000 operations;  197.7 MB/s
+Count: 10000000 Average: 3.9564  StdDev: 61.11
+[END-TOR_FS] [TIME 996093.06 17751852.39]
+[RUN-TOR_FS] [TIME 996093.06 17751852.41] overwrite over_t16 10000000 nvme0n1
+overwrite    :      87.546 micros/op 182505 ops/sec 876.688 seconds 160000000 operations;  142.7 MB/s
+Count: 160000000 Average: 87.5470  StdDev: 880.59
+[END-TOR_FS] [TIME 996970.59 17765284.49]
